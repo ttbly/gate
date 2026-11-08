@@ -51,69 +51,13 @@ DEFAULT_VPNGATE_API = "http://www.vpngate.net/api/iphone/"
 DEFAULT_VPNGATE_MIRROR = (
     "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/json/data.json"
 )
-DEFAULT_OPTIMAL_API = ""
+DEFAULT_OPTIMAL_API = "https://cf.090227.xyz/ct?ips=6&port=443"
 
 # 占位符检测：命中任意一个就认为用户还没配置
 PLACEHOLDER_MARKERS = ("你的", "YOUR_", "YOUR-", "example.com", "yourdomain")
 
 # 静态优选域名池（可用 EDGE_HOSTS 整体覆盖）
 DEFAULT_EDGE_HOSTS = [
-    # 官方 IP 入口
-    "162.159.198.1:8443",
-    "162.159.197.1:443",
-    "162.159.198.1:443",
-    "162.159.199.1:443",
-    "162.159.193.1:443",
-    "162.159.197.1:8443",
-    # 企业域名
-    "store.ubi.com:443",
-    "serviceshub.samsclub.com:443",
-    "www.allianz.com:443",
-    "www.decathlon.com:443",
-    "www.asda.com:443",
-    "www.shopify.com:443",
-    "cookiebot.com:443",
-    "bluehost.com:443",
-    "nexusmods.com:443",
-    "glassdoor.com:443",
-    "www.jimdo.com:443",
-    "openai.com:443",
-    "www.sage.com:443",
-    "www.speedtest.net:443",
-    "investor.apple.com:443",
-    "markmonitor.com:443",
-    "store.epicgames.com:443",
-    "mycareer.verizon.com:443",
-    "onetrust.com:443",
-    "www.affirm.com:443",
-    "www.zendesk.com:443",
-    "www.doordash.com:443",
-    "digitalocean.com:443",
-    "ringcentral.com:443",
-    "chrono24.com:443",
-    "www.wto.org:443",
-    "www.mskcc.org:443",
-    "cdn.jsdelivr.net:443",
-    "www.broadcom.com:443",
-    "www.nestle.com:443",
-    "homecare.stryker.com:443",
-    "www.emerson.com:443",
-    "visit.honeywell.com:443",
-    "polestar.com:443",
-    "auctions.ihg.com.cn:443",
-    "woodsbagot.com:443",
-    "www.transunion.hk:443",
-    "www.hongkongairport.com:443",
-    "deepin.org:443",
-    "www.police.uk:443",
-    "www.leics.police.uk:443",
-    "china.mfa.gov.ua:443",
-    # 金融域名
-    "www.visa.cn:443",
-    "visa.com:443",
-    "www.tpg.com:443",
-    "www.wilshire.com:443",
-    # 官方及生态域名
     "engage.cloudflareclient.com:443",
     "cloudflare-eth.com:443",
     "cloudflare.dev:443",
